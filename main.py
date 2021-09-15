@@ -35,6 +35,9 @@ pyautogui.press('tab')
 time.sleep(1)
 
 #pyautogui.write('Você não entregou a atividade!!! Entregue o mais urgente possível para não ficar sem nota.', interval=0.25) - Não aceitou caracteres especiais!!! Que pena!!!
+#A partir daqui o código vai colar a mensagem para o aluno que não entregou atividade.
+#Essa mensagem deve estar na área de transferência, ou seja, Control+C na seguinte mensagem abaixo:
+#Você não entregou a atividade!!! Entregue o mais urgente possível para não ficar sem nota.
 pyautogui.keyDown('ctrl')
 pyautogui.keyDown('v')
 pyautogui.keyUp('v')
